@@ -5,7 +5,7 @@ import yaml
 from time import sleep
 
 def p():
-    with open('../Data/data.yml','r',encoding='utf-8')as f:
+    with open(r'D:/Program Files (x86)/python/tt/Data/data.yml','r',encoding='utf-8')as f:
         a = yaml.load(f,Loader=yaml.FullLoader)
         return a['input']
 
